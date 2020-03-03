@@ -1,0 +1,14 @@
+Package: stat302package
+Title: Package Building Demonstration
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Aubrey",
+           family = "Yan",
+           role = c("aut", "cre"),
+           email = "yanxy130@uw.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: What the package does (one paragraph).
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
