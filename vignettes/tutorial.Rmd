@@ -18,3 +18,67 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(stat302package)
 ```
+
+
+```{r, eval = FALSE}
+git init
+git status
+git add .
+git commit -m "Set up package"
+git remote add origin https://github.com/aubreyanxy/stat302package.git
+git push -u origin master
+git push -u origin master: push your local changes to origin
+```
+
+
+```{r}
+# Write a function my_t.test() that performs a one sample t-test in R. To prove it works, use or simulate any data. Use this data for a two-sided t-test using both my_t.test() and t.test(). The results should match. Do the same for a one-sided t-test.
+
+# Your function should return a list with elements:
+
+# test_stat: the numeric test statistic.
+# df: the degrees of freedom.
+# alternative: the value of the parameter alternative.
+# p_val: the numeric p-value.
+
+library("tidyverse")
+```
+
+
+```{r}
+# Load "mtcar"
+data(mtcars)
+
+# Function: my_lm 
+# Return a table of information includes "Estimate","Std. Error","t value",
+# "Pr(>|t|)" in the form of table
+#            It's a brief combination of lm() and summary()
+# Input: regression formula, data frame
+# Output: A table includes related data
+```
+
+
+```{r}
+# Load libaray and data
+library(tidyverse)
+library(class)
+library(randomForest)
+data("iris")
+set.seed(302)
+
+# Function: my_knn_cv. 
+# Predict given class by using covariats sepal.(length, width) and petal.(length, width) 
+# Input: a data frame, true class value of training data
+#        an integer representing the number of neighbors
+#        an integer representing the number of folds
+# Output: A list which consists of a vector that includes all observations and a vector
+#         than includes numeric data.
+```
+
+
+```{r}
+# Function: my_rf_cv  Predict output sepal.length using covariates sepal.with
+#                     and petal.(width, length)
+# Input: a numeric number stands for number of folds
+# Output: a number -- the cross-valiadation error
+```

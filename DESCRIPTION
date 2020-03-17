@@ -7,7 +7,10 @@ Authors@R:
            role = c("aut", "cre"),
            email = "yanxy130@uw.edu",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: The package provides the required functions and 
+             the corresponding test and tutorails of them.
+             Collaborated with George Fu, I create functions my_t.test, my_lm, 
+             my_knn_cv, and my_rf_cv.
 Depends: R (>= 3.2)
 License: GPL-3
 Encoding: UTF-8

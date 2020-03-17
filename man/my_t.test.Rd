@@ -2,13 +2,17 @@
 % Please edit documentation in R/my_t_test.R
 \name{my_t.test}
 \alias{my_t.test}
-\title{Function: my_t.test.}
+\title{Function: my_t.test}
 \usage{
 my_t.test(x, mu, alternative)
 }
 \description{
 Return a list of information includes t_statistic, df, range type, and p-value
-          it's a brief version of t.test() 
+          it's a brief version of t.test()
 Input: numeric sample x, numeric number mu, and string paremeter "alternative"
 Output: A list
+}
+\examples{
+my_t.test(test_data, 2, alternative = "less" )
+t.test(test_data, mu = 2, alternative = "less")
 }

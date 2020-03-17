@@ -12,3 +12,7 @@ Return a table of information includes "Estimate","Std. Error","t value","Pr(>|t
 Input: regression formula, data frame
 Output: A table includes related data
 }
+\examples{
+my_lm(mpg ~ hp + wt, data = mtcars)
+my_lm(mpg ~ hp + qsec + wt, data = mtcars)
+}
